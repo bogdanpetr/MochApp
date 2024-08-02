@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         clickOnButton(findViewById<Button>(R.id.btn_press)) {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
-//            finish()
+            finish()
         }
     }
 
